@@ -15,3 +15,7 @@ _artifacts/
 electron/build/
 *.zip
 *.exe
+_artifacts/
+\"electron/build/\"
+*.zip
+*.exe
