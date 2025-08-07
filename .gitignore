@@ -1,0 +1,9 @@
+﻿.env
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+electron/node_modules/
+electron/build/
+electron/*.zip

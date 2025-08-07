@@ -1,0 +1,38 @@
+{
+  "name": "deathdoll",
+  "version": "1.0.0",
+  "description": "DeathDoll - Your undead gothic AI companion",
+  "author": "Umbra",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.deathdoll.app",
+    "productName": "DeathDoll",
+    "files": [
+      "**/*",
+      "!node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/.*",
+      "!**/*.md",
+      "!**/*.map"
+    ],
+    "directories": {
+      "output": "build"
+    },
+    "extraMetadata": {
+      "main": "main.js"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^27.1.1",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
