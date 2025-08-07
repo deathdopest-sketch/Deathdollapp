@@ -10,3 +10,8 @@ electron/*.zip
 
 _artifacts/
 electron/build/
+
+_artifacts/
+electron/build/
+*.zip
+*.exe
