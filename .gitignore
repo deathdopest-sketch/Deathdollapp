@@ -7,3 +7,6 @@ Thumbs.db
 electron/node_modules/
 electron/build/
 electron/*.zip
+
+_artifacts/
+electron/build/
